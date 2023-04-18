@@ -1,0 +1,19 @@
+.top-bar {
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-bar {
+    height: 90vh;
+    min-width: 150px;
+}
+
+.content {
+    flex: 1;
+    padding: 10px;
+    margin-left: 20px;
+}

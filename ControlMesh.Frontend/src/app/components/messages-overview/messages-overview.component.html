@@ -1,0 +1,20 @@
+<p-table [value]="messages" styleClass="p-datatable-gridlines" [tableStyle]="{ 'min-width': '50rem' }">
+    <ng-template pTemplate="header">
+        <tr>
+            <th>Id</th>
+            <th>Content</th>
+            <th>Type</th>
+            <th>Created</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-message>
+        <tr routerLink="/messages/{{message.id}}">
+            <td> <a></a>{{ message.id }}</td>
+            <td>{{ message.content }}</td>
+            <td>{{ message.type }}</td>
+            <td>{{ message.created }}</td>
+        </tr>
+    </ng-template>
+</p-table>
+<p-paginator (onPageChange)="onPageChange($event)" [first]="pageNumber" [rows]="rows" [totalRecords]="count"
+    [rowsPerPageOptions]="[10, 20, 30]"></p-paginator>

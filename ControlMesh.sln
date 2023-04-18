@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMesh.Host", "ControlMesh.Host\ControlMesh.Host.csproj", "{B9B6D337-8236-4266-BD34-761342D73458}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMesh.Database", "ControlMesh.Database\ControlMesh.Database.csproj", "{86AB1D33-0AA9-4EA1-BA82-297E0B1FC043}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMesh.Repository", "ControlMesh.Repository\ControlMesh.Repository.csproj", "{91D8FEC0-7BC6-4C39-8E97-6C195FAD53CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMesh.Tests", "ControlMesh.Tests\ControlMesh.Tests.csproj", "{D86D6077-A88B-4059-9BEB-2D5D3FB1165B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlMesh.API", "ControlMesh.API\ControlMesh.API.csproj", "{BC2AD2E7-3E6C-4816-8BC8-407FB52AEB4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlMesh.Services", "ControlMesh.Services\ControlMesh.Services.csproj", "{DAF70479-01C5-4386-AD37-4EE2EE8262E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9B6D337-8236-4266-BD34-761342D73458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B6D337-8236-4266-BD34-761342D73458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B6D337-8236-4266-BD34-761342D73458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B6D337-8236-4266-BD34-761342D73458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86AB1D33-0AA9-4EA1-BA82-297E0B1FC043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86AB1D33-0AA9-4EA1-BA82-297E0B1FC043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86AB1D33-0AA9-4EA1-BA82-297E0B1FC043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86AB1D33-0AA9-4EA1-BA82-297E0B1FC043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D8FEC0-7BC6-4C39-8E97-6C195FAD53CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D8FEC0-7BC6-4C39-8E97-6C195FAD53CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D8FEC0-7BC6-4C39-8E97-6C195FAD53CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D8FEC0-7BC6-4C39-8E97-6C195FAD53CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86D6077-A88B-4059-9BEB-2D5D3FB1165B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86D6077-A88B-4059-9BEB-2D5D3FB1165B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86D6077-A88B-4059-9BEB-2D5D3FB1165B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86D6077-A88B-4059-9BEB-2D5D3FB1165B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC2AD2E7-3E6C-4816-8BC8-407FB52AEB4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2AD2E7-3E6C-4816-8BC8-407FB52AEB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2AD2E7-3E6C-4816-8BC8-407FB52AEB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2AD2E7-3E6C-4816-8BC8-407FB52AEB4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF70479-01C5-4386-AD37-4EE2EE8262E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF70479-01C5-4386-AD37-4EE2EE8262E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF70479-01C5-4386-AD37-4EE2EE8262E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF70479-01C5-4386-AD37-4EE2EE8262E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43B93A9F-C29E-41D2-905C-1F379B82063D}
+	EndGlobalSection
+EndGlobal

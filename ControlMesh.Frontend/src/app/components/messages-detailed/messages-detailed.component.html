@@ -1,0 +1,20 @@
+<p-breadcrumb [model]="breadcrumbItems"></p-breadcrumb>
+<p-tabView>
+    <p-tabPanel header="Message System Properties">
+        <div *ngIf="message">
+            <li *ngFor="let item of helper.objectKeys(message.messageSystemProperties)">
+                <strong>{{item}}</strong> : {{ helper.objectValue(message.messageSystemProperties, item)}}
+            </li>
+        </div>
+    </p-tabPanel>
+    <p-tabPanel header="Message Custom Properties">
+        <li *ngFor="let item of helper.objectKeys(message?.messageCustomProperties)">
+            <strong>{{item}}</strong> : {{ helper.objectValue(message?.messageCustomProperties, item)}}
+        </li>
+    </p-tabPanel>
+    <p-tabPanel header="Json Response">
+        <p>
+            {{message?.content}}
+        </p>
+    </p-tabPanel>
+</p-tabView>
